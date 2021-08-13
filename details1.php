@@ -108,7 +108,7 @@
                             <th>Email</th>
                             <th>Pass</th>
                             <th>Date</th>
-                            <th>Time</th>
+                            <th>Room</th>
                             <th colspan="2">Operation</th>
                         </tr>
                     </thead>
@@ -134,7 +134,7 @@ while($res=mysqli_fetch_array($query))
     <td><?php echo $res['Email'];?></td>
     <td><?php echo $res['Pass'];?></td>
     <td><?php echo $res['Dat'];?></td>
-    <td><?php echo $res['Tim'];?></td>
+    <td><?php echo $res['Room'];?></td>
     <td><a href="updates.php?id=<?php echo $res['id'];?>" data-toggle="tooltip" data-placement="top" title="UPDATE"><i class="fa fa-edit" aria-hidden="true"></i></a>
     </td>
     <td><a href="delete.php?id=<?php echo $res['id'];?>" data-toggle="tooltip" title="DELETE"><i class="fa fa-trash" aria-hidden="true"></i></a>
