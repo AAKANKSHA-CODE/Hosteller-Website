@@ -2,6 +2,6 @@
 $username="root";
 $password="";
 $server='localhost';
-$db='salonregistration';
+$db='hosteller';
 $con=mysqli_connect($server,$username,$password,$db);
  ?>
