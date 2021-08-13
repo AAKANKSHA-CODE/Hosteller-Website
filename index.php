@@ -36,7 +36,7 @@
         </div>
         <div class="header_content">
             <h1>
-                <pre>  Welcome to the beauty</pre>
+                <pre>  Welcome to the Hostel</pre>
             </h1>
             <!-- <button><a href="signup.php">Sign Up</a></button> -->
             <a style="text-decoration:none;" href="signup.php"><button>sign up</button></a>
